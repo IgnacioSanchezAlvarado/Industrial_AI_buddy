@@ -74,9 +74,9 @@ AIndustrial_AI_buddyCharacter::AIndustrial_AI_buddyCharacter()
 	Sensitivity = 0.5f;
 
 	//API endpoints
-	FirstApi = TEXT("https://z4l7mvuhi4.execute-api.us-east-1.amazonaws.com/default/Unreal_engine_function1");
-	KnowledgeBaseApi = TEXT("https://um73xjl6h0.execute-api.us-east-1.amazonaws.com/default/unreal_engine_function2");
-	AgentApi = TEXT("https://zjgf2vqvhb.execute-api.us-east-1.amazonaws.com/default/unreal_engine_function3");
+	FirstApi = TEXT("Speech_to_text_API");
+	KnowledgeBaseApi = TEXT("Knowledge_base_API");
+	AgentApi = TEXT("Agent_API");
 	SecondApi = KnowledgeBaseApi;
 
 	//Language and mode
